@@ -50,13 +50,13 @@ public class Pez extends Animal {
     public String movimiento(){return "nadar";}
 
     public static Pez crearSalmon(String nombre, int edad, String genero) {
-        Pez monmon = new Pez(nombre, edad, "oceano", genero, "rojo", 6);
+        Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojo", 6);
         salmones += 1;
-        return monmon;
+        return salmon;
     }
     public static Pez crearBacalao(String nombre, int edad, String genero) {
-        Pez cado = new Pez(nombre, edad, "oceano", genero, "gris", 6);
+        Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
         bacalaos += 1;
-        return cado;
+        return bacalao;
     }
 }

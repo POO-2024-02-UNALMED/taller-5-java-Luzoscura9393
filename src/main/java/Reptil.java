@@ -50,13 +50,13 @@ public class Reptil extends Animal {
     public String movimiento(){return "reptar";}
 
     public static Reptil crearIguana(String nombre, int edad, String genero) {
-        Reptil rango = new Reptil(nombre, edad, "humedal", genero, "verde", 3);
+        Reptil iguana = new Reptil(nombre, edad, "humedal", genero, "verde", 3);
         iguanas += 1;
-        return rango;
+        return iguana;
     }
     public static Reptil crearSerpiente(String nombre, int edad, String genero) {
-        Reptil kai = new Reptil(nombre, edad, "jungla", genero, "blanco", 1);
+        Reptil serpiente = new Reptil(nombre, edad, "jungla", genero, "blanco", 1);
         serpientes += 1;
-        return kai;
+        return serpiente;
     }
 }
